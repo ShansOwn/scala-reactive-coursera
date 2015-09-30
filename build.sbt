@@ -10,7 +10,8 @@ projectDetailsMap := {
   val currentCourseId = "reactive-002"
 
   val depsNode = Seq(
-    "com.netflix.rxjava" % "rxjava-scala" % "0.15.0",
+    "io.reactivex" %% "rxscala" % "0.23.0",
+    "io.reactivex" % "rxswing" % "0.21.0", // for Swing Scheduler in suggestions
     "org.json4s" %% "json4s-native" % "3.2.11",
     "org.scala-lang.modules" %% "scala-swing" % "1.0.1",
     "net.databinder.dispatch" %% "dispatch-core" % "0.11.0",
